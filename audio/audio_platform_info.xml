@@ -27,6 +27,7 @@
 	<device name="SND_DEVICE_IN_VOICE_TTY_VCO_HANDSET_MIC" acdb_id="4" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="11" />
 	<device name="SND_DEVICE_IN_VOICE_REC_DMIC_FLUENCE" acdb_id="35" />
+	<device name="SND_DEVICE_IN_CAMCORDER_MIC" acdb_id="34"/>
 	<device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41" />
 	<device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="43" />
 	<device name="SND_DEVICE_IN_SPEAKER_DMIC_AEC" acdb_id="43" />
@@ -62,6 +63,7 @@
 </pcm_ids>
 
 <backend_names>
+    <device name="SND_DEVICE_IN_CAMCORDER_MIC" interface="SLIM_0_TX"/>
 	<device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" />
 	<device name="SND_DEVICE_OUT_LINE" backend="headphones" />
 	<device name="SND_DEVICE_OUT_HDMI" backend="hdmi" interface="SLIMBUS_0_RX" />
