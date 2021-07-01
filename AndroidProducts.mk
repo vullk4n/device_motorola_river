@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_river.mk
+    $(LOCAL_DIR)/derp_river.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_river-eng \
-    aosp_river-user \
-    aosp_river-userdebug
+    derp_river-eng \
+    derp_river-user \
+    derp_river-userdebug
