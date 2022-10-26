@@ -37,5 +37,5 @@ PRODUCT_NAME := derp_river
 PRODUCT_MODEL := moto g(7)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        TARGET_PRODUCT=river \
+        PRODUCT_NAME=river \
         PRIVATE_BUILD_DESC="river_retail-user 10 QPUS30.52-33-11 df129 release-keys"
